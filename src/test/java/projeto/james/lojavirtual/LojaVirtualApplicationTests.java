@@ -76,7 +76,7 @@ public class LojaVirtualApplicationTests extends TestCase{
 		
 		Acesso acesso = new Acesso();
 		
-		acesso.setDescricao("TESTE_DELETE");
+		acesso.setDescricao("ROLE_TESTE_DELETE");
 		
 		acesso = acessoRepository.save(acesso);
 		
